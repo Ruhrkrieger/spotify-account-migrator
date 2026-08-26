@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------
+# SECRETS - never commit these
+# ---------------------------------------------------------------
+# config.json                -> your Spotify client id + secret
+# .cache-source/.cache-target -> OAuth tokens for each account
+config.json
+.cache-source
+.cache-target
+.cache*
+*.tmp
+
+# ---------------------------------------------------------------
+# Personal data
+# ---------------------------------------------------------------
+# spotify_export.json -> a full dump of your library
+spotify_export.json
+migration_state.json
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# ---------------------------------------------------------------
+# Editors / OS
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
