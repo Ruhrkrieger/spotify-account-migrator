@@ -5,7 +5,7 @@ followed artists — from one account to another. Free, no track limit, no
 third-party service ever sees your data.
 
 Built against the Spotify Web API **as it stands after the February 2026
-migration**, which is what broke most of the existing tools.
+migration**.
 
 ```
 ==============================================
